@@ -2,7 +2,8 @@
 
 🔒 Welcome to the CLI-based Cybersecurity Suite - your comprehensive toolkit for enhancing digital security! 🔒
 
-![Cybersecurity Suite Logo](images/cybersecurity_logo.png)
+![Shravp Logo](Images/logo3.png)
+
 
 ## Overview
 
