@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>BHC - MRCET</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/assets/img/logo3.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    #video {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    #video video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  </style>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <a class='logo me-auto' href='/'><img src="assets/img/logo/tsp-logo/1.png" alt="" class="img-fluid" width="160px" height="160px"></a>
+      <!-- <h1 class="logo me-auto"><a href="index.html">Mentor</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+<!--       <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>           
+          <li><a href="about.html">Team</a></li>
+          <li><a href="courses.html">Clubs</a></li>
+          <li><a href="trainers.html">Resources</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Gallary</a></li>
+          <li><a href="contact.html">Blogs</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav> -->
+      
+      <!-- .navbar -->
+
+      <a class='get-started-btn' href='/contact'><b>Partner With US</b></a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex justify-content-center align-items-center">
+
+    <div id="video">
+      <video autoplay loop muted>
+        <source src="/assets/BeeHiveCommunity.mp4" type="video/mp4">
+      </video>
+      <div class="overlay">
+        <a href="https://your-google-form-link-here" class="join-button">Click Here to Join the Clubs</a>
+      </div>
+
+      <!-- <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+        <h1>Learning Today,<br>Leading Tomorrow</h1>
+        <h2>We are team of talented designers making websites with Bootstrap</h2>
+        <a href="courses.html" class="btn-get-started">Get Started</a>
+      </div> -->
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/about1.jpg" class="img-fluid" alt="" style="border-radius: 35px; animation: float 3s infinite alternate;">
+            <style>
+              @keyframes float {
+                0% {
+                  transform: translateY(0); /* Starting position */
+                }
+                50% {
+                  transform: translateY(-10px); /* Midway point, move up */
+                }
+                100% {
+                  transform: translateY(0); /* Return to the starting position */
+                }
+              }
+            </style>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h1><b>About Our Community?</b></h1>
+            <p class="fst-italic">
+              We believe that a strong student community can enhance the college experience for everyone. By building a community, we can connect with each other, share our knowledge and ideas, support each other, and create meaningful relationships that can last a lifetime.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <b>Empowering Excellence:</b>BeeHiveCommunity is where excellence is nurtured. We provide a platform for you to explore your passions, develop new skills, and excel in various domains. Join us, and unlock your potential to achieve greatness.</li>
+              <li><i class="bi bi-check-circle"></i> <b>Connect, Collaborate, Create:</b>We believe in the power of collaboration. At BeeHiveCommunity, you'll connect with like-minded individuals, collaborate on innovative projects, and create memorable experiences that go beyond the classroom.</li>
+              <li><i class="bi bi-check-circle"></i> <b>Limitless Possibilities:</b>Our community is a gateway to endless opportunities. From technical prowess to artistic expression, from entrepreneurship to cultural exploration, BeeHiveCommunity opens doors to a world of possibilities. Your journey to success starts here.</li>
+            </ul>
+            <p>
+              <i>Join BeeHiveCommunity, where your journey begins, your dreams find wings, and together, we shape a future of limitless possibilities.</i></p>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts section-bg">
+      <div class="container">
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="198" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Students Joined</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="19" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Clubs Available</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Events Organized</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hackathons</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Our Vision Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="content">
+              <h3>Our Vision</h3>
+              <p>
+                Our vision fuels a vibrant ecosystem where students learn, connect, and support each other, forging lifelong friendships and unforgettable experiences.
+              </p>
+              <div class="text-center">
+                <a class='more-btn' href='/about'>Learn More <i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-receipt"></i>
+                    <h4>Connecting Students</h4>
+                    <p>Our vision is to create a platform that brings students together, regardless of their backgrounds or areas of study, to connect and collaborate with each other.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-cube-alt"></i>
+                    <h4>Fostering Learning</h4>
+                    <p>We aim to promote a culture of learning and knowledge-sharing within our community. By providing access to resources, tools, and opportunities, we hope to help students develop their skills and achieve their academic goals.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-images"></i>
+                    <h4>Building A Supportive Community</h4>
+                    <p>We believe that a supportive community can be instrumental in helping students succeed. Our vision is to create a safe and inclusive space where students can share their experiences, offer support and advice to one another, and build lasting friendships.</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+        <h1>Academic Clubs</h1>
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+              <i class="ri-store-line" style="color: #ffbb2c;"></i>
+              <h3><a href="">Blockchain Club</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+              <h3><a href="">Cybersecurity Club</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+              <h3><a href="">IoT Club</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+              <h3><a href="">Data Science Club</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-database-2-line" style="color: #47aeff;"></i>
+              <h3><a href="">FSD Club</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+              <h3><a href="">UI/UX Club</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+              <h3><a href="">Entrepreneurship Club</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+              <h3><a href="">GeeksForGeeks Club</a></h3>
+            </div>
+          </div>
+
+
+<br><br><br>
+
+
+          <h1 style="margin-top: 40px;">Cultural Clubs</h1>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-anchor-line" style="color: #b2904f;"></i>
+              <h3><a href="">Arts Club</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-disc-line" style="color: #b20969;"></i>
+              <h3><a href="">Dance Club</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-base-station-line" style="color: #ff5828;"></i>
+              <h3><a href="">Music Club</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="">Sports Club</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+              <h3><a href="">Volunteer Club</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+              <h3><a href="">Media Club</a></h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="trainers" class="trainers">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/main-team/sriram-parisa.png" class="img-fluid" alt="">
+              <!-- style="border-radius: 35px; animation: float 3s infinite alternate;" -->
+              <div class="member-content">
+                <h4>Sriram Parisa</h4>
+                <span>President</span>
+                <p>
+                  Cybersecurity IV Year Student, <br>Department of Emerging Technologies, MRCET
+                </p>
+                <div class="social">
+                  <a href="https://twitter.com/sriram_parisa" target="_blank"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/parisaluckysriram/" target="_blank"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/sriram_parisa/" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/sriramparisa/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/main-team/pavan-teja.png" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Pavan Teja Saikam</h4>
+                <span>Vice-President</span>
+                <p>
+                  Data Science IV Year Student, <br>Department of Emerging Technologies, MRCET
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/main-team/jayendra.png" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Jayendra Medari</h4>
+                <span>Secretary & Treasurer</span>
+                <p>
+                  Internet of Things IV Year Student, <br>Department of Emerging Technologies, MRCET
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Nikhil Teja D</h4>
+                <span>Outreach-Secretary</span>
+                <p>
+                  Cybersecurity IV Year Student, <br>Department of Emerging Technologies, MRCET
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Trainers Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <a href='/'><img src="/assets/img/logo/tsp-logo/1.png" alt="" width="160px" height=auto></a>
+            <p>
+              MRCET College,<br>
+              Maisammaguda, Kompally, 500100<br>
+              Telangana, India <br><br>
+              <!-- <strong>Phone:</strong> +1 5589 55488 55<br> -->
+              <strong>Email:</strong> bhc.mrcet@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Team</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Clubs</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Resources</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Events</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Gallary</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Blogs</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Academic Clubs Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Blockchain Club</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Cybersecurity Club</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">IoT Club</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Data Science Club</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">UI/UX Club</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">FSD Club</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">GeeksForGeeks Club</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Entrepreneurship Club</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Cultural Clubs</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Arts Club</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Dance Club</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Music Club</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Sports Club</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Volunteer Club</a></li>
+            </ul>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div> -->
+    
+
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>BeeHiveCommunity</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
+          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="https://twitter.com/BHC_mrcet" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100092199954450" class="facebook" target="_blank"><i class="bx bxl-facebook" target="_blank"></i></a>
+        <a href="https://www.instagram.com/bhc.mrcet/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://github.com/BeeHiveClub" class="google-plus" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/company/bhcmrcet/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
